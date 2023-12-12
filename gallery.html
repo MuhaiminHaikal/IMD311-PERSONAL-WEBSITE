@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gallery</title>
+ <link rel="stylesheet" href=styles.css"
+>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://wallpaperaccess.com/full/3991709.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.mySlides {display:none;}
+</style>
+
+
+
+
+</head>
+<body bgcolor="#e7feff" align="center">
+<body>
+<background color="#F0FFFF" width="100%" height="100%">
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">GALLERY</h1>
+    <p>Enjoy view it.</p>
+  </div>
+</div>
+<hr>
+
+
+<nav>
+<table align="center" table cellspacing="6" cellpading="6">
+<tr>
+<tr>
+<td><a href="index.html"> <button type="button" ">Home</button></a></td>
+<td><a href="aboutme.html"> <button type="button" ">About Me</button></a></td>
+<td><a href="education.html"> <button type="button" ">Education</button></a></td>
+<td><a href="myfamily.html"> <button type="button" ">My Family</button> </a></td>
+<td><a href="myfriends.html"> <button type="button" ">My Friends</button></a></td>
+<td><a href="gallery.html"> <button type="button" ">Gallery</button></a></td>
+</tr>
+</tr>
+</table>
+</nav>
+
+<h2 class="w3-center"><i>Automatic Slideshow</i></h2>
+
+<center><div class="w3-content w3-section" style="max-width:300px"></center>
+<center>
+  <img class="mySlides" src="gallery1.jpg" style="width:100%" style="height:50%">
+  <img class="mySlides" src="gallery2.jpg" style="width:100%" style="height:50%">
+  <img class="mySlides" src="gallery3.jpg" style="width:100%" style="height:50%">
+  <img class="mySlides" src="gallery4.jpg" style="width:100%" style="height:50%">
+  <img class="mySlides" src="gallery5.jpg" style="width:100%" style="height:50%">
+  <img class="mySlides" src="gallery6.jpg" style="width:100%" style="height:50%">
+  <img class="mySlides" src="gallery7.jpg" style="width:100%" style="height:50%">
+  <img class="mySlides" src="gallery8.jpg" style="width:100%" style="height:50%">
+  <img class="mySlides" src="gallery9.jpg" style="width:100%" style="height:50%">
+  <img class="mySlides" src="gallery10.jpg" style="width:100%" style="height:50%">
+  <img class="mySlides" src="gallery11.jpg" style="width:100%" style="height:50%">
+  <img class="mySlides" src="gallery12.jpg" style="width:100%" style="height:50%">
+  <img class="mySlides" src="gallery13.jpg" style="width:100%" style="height:50%">
+  <img class="mySlides" src="gallery14.jpg" style="width:100%" style="height:50%">
+  <img class="mySlides" src="gallery15.jpg" style="width:100%" style="height:50%">
+  <img class="mySlides" src="gallery16.jpg" style="width:100%" style="height:50%">
+  <img class="mySlides" src="gallery17.jpg" style="width:100%" style="height:50%">
+  <img class="mySlides" src="gallery18.jpg" style="width:100%" style="height:50%">
+  <img class="mySlides" src="gallery19.jpg" style="width:100%" style="height:50%">
+  <img class="mySlides" src="gallery20.jpg" style="width:100%" style="height:50%">
+  <img class="mySlides" src="gallery21.jpg" style="width:100%" style="height:50%">
+
+</center>
+<p></pre><font face="arial" font size="4" align="center"> Here I share with you some photos of my life with family, friends and others. Thank you for visit this website.
+<br>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 3 seconds
+}
+</script>
+<br>
+<br>
+<br>
+
+</head>
+<footer class="footer">
+    <div class="footerContainer">
+        <p class="copyright" text align="center"><b>MUHAIMIN HAIKAL BIN MUSA</b></p>
+    </div>
+</footer
+
+
+</body>
+</html>
